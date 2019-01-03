@@ -1,0 +1,4 @@
+2019-01-03 20:02:15 Log - ==== App running ====
+2019-01-03 20:04:48 Log - receiveExit
+2019-01-03 20:04:48 Log - ==== App destroyed ====
+2019-01-03 20:04:48 Log - ==== gomsg closing down (signal: interrupt) ====
