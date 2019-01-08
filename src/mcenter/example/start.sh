@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "start new process ..."
-nohup ./gomsg -pidfile ./run/gomsg.pid &
+nohup ./mcenter -pidfile ./run/mcenter.pid &
 exit 0

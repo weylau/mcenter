@@ -1,0 +1,169 @@
+2019-01-07 14:18:20 Log - ==== App running ====
+2019-01-07 14:18:30 Log - msg body:{"test":"test"}
+2019-01-07 14:18:30 Log - msg token:1234567
+2019-01-07 14:18:30 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:18:30 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:18:30 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:18:30 ERROR - http response code is 400 , msg is error messages
+2019-01-07 14:18:30 Log - retries:0,maxRetries:5
+
+2019-01-07 14:18:30 Log - Message-Reject: body: {"test":"test"}
+
+2019-01-07 14:18:40 Log - msg body:{"test":"test"}
+2019-01-07 14:18:40 Log - msg token:1234567
+2019-01-07 14:18:40 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:18:40 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:18:40 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:18:41 ERROR - http response code is 400 , msg is error messages
+2019-01-07 14:18:41 Log - retries:1,maxRetries:5
+
+2019-01-07 14:18:41 Log - Message-Reject: body: {"test":"test"}
+
+2019-01-07 14:18:51 Log - msg body:{"test":"test"}
+2019-01-07 14:18:51 Log - msg token:1234567
+2019-01-07 14:18:51 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:18:51 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:18:51 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:18:51 ERROR - http response code is 400 , msg is error messages
+2019-01-07 14:18:51 Log - retries:2,maxRetries:5
+
+2019-01-07 14:18:51 Log - Message-Reject: body: {"test":"test"}
+
+2019-01-07 14:18:52 Log - receiveExit
+2019-01-07 14:18:52 Log - ==== App destroyed ====
+2019-01-07 14:18:52 Log - ==== gomsg closing down (signal: interrupt) ====
+2019-01-07 14:35:23 Log - ==== App running ====
+2019-01-07 14:35:23 Log - msg body:{"test":"test"}
+2019-01-07 14:35:23 Log - msg token:1234567
+2019-01-07 14:35:23 Log - msg body:{"test":"test"}
+2019-01-07 14:35:23 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:23 Log - msg token:1234567
+2019-01-07 14:35:23 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:23 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:23 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:23 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:23 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:23 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:23 Log - msg body:{"test":"test"}
+2019-01-07 14:35:23 Log - msg token:1234567
+2019-01-07 14:35:23 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:23 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:23 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:23 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:23 Log - msg body:{"test":"test"}
+2019-01-07 14:35:23 Log - msg token:1234567
+2019-01-07 14:35:23 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:23 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:23 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:24 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:24 Log - msg body:{"test":"test"}
+2019-01-07 14:35:24 Log - msg token:1234567
+2019-01-07 14:35:24 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:24 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:24 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:24 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:24 Log - msg body:{"test":"test"}
+2019-01-07 14:35:24 Log - msg token:1234567
+2019-01-07 14:35:24 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:24 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:24 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:24 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:24 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:35:50 Log - msg body:{"test":"test"}
+2019-01-07 14:35:50 Log - msg token:1234567
+2019-01-07 14:35:50 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:35:50 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:35:50 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:35:51 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:36:33 Log - msg body:{"test":"test"}
+2019-01-07 14:36:33 Log - msg token:1234567
+2019-01-07 14:36:33 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:36:33 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:36:33 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:36:34 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:38:48 Log - msg body:{"test":"test"}
+2019-01-07 14:38:48 Log - msg token:1234567
+2019-01-07 14:38:48 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:38:48 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:38:48 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:38:49 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:39:38 Log - msg body:{"test":"test"}
+2019-01-07 14:39:38 Log - msg token:1234567
+2019-01-07 14:39:38 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:39:38 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:39:38 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:39:38 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:43:07 Log - receiveExit
+2019-01-07 14:43:07 Log - ==== App destroyed ====
+2019-01-07 14:43:07 Log - ==== gomsg closing down (signal: interrupt) ====
+2019-01-07 14:43:08 Log - ==== App running ====
+2019-01-07 14:43:10 Log - msg body:{"test":"test"}
+2019-01-07 14:43:10 Log - msg token:1234567
+2019-01-07 14:43:10 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:43:10 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:43:10 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:43:11 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:43:48 Log - msg body:{"test":"test"}
+2019-01-07 14:43:48 Log - msg token:1234567
+2019-01-07 14:43:48 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:43:48 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:43:48 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:43:49 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:45:33 Log - msg body:{"test":"test"}
+2019-01-07 14:45:33 Log - msg token:1234567
+2019-01-07 14:45:33 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:45:33 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:45:33 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:45:34 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:50:43 Log - msg body:{"test":"test"}
+2019-01-07 14:50:43 Log - msg token:1234567
+2019-01-07 14:50:43 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:50:43 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:50:43 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:50:44 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:51:07 Log - msg body:{"test":"test"}
+2019-01-07 14:51:07 Log - msg token:1234567
+2019-01-07 14:51:07 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:51:07 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:51:07 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:51:07 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:51:14 Log - receiveExit
+2019-01-07 14:51:14 Log - ==== App destroyed ====
+2019-01-07 14:51:14 Log - ==== gomsg closing down (signal: interrupt) ====
+2019-01-07 14:51:16 Log - ==== App running ====
+2019-01-07 14:51:20 Log - msg body:{"test":"test"}
+2019-01-07 14:51:20 Log - msg token:1234567
+2019-01-07 14:51:20 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:51:20 Log - msg callback url:http://loc.fzz.com/mcallback/v1/test/test0
+2019-01-07 14:51:20 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:51:20 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:51:46 Log - receiveExit
+2019-01-07 14:51:46 Log - ==== App destroyed ====
+2019-01-07 14:51:46 Log - ==== gomsg closing down (signal: interrupt) ====
+2019-01-07 14:52:44 Log - ==== App running ====
+2019-01-07 14:52:51 Log - msg body:{"test":"test"}
+2019-01-07 14:52:51 Log - msg token:1234567
+2019-01-07 14:52:51 Log - msg MD5 token:7be0cf42b8c93759
+2019-01-07 14:52:51 Log - msg callback url:http://loc.fzz.com/mcallback/v1/app/test
+2019-01-07 14:52:51 Log - msg encode:NOpQwzhZ2/CbxYW1XC6eIg==
+2019-01-07 14:52:51 Log - Message-Ack: body: {"test":"test"}
+
+2019-01-07 14:59:34 Log - receiveExit
+2019-01-07 14:59:34 Log - ==== App destroyed ====
+2019-01-07 14:59:34 Log - ==== gomsg closing down (signal: interrupt) ====

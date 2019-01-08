@@ -12,7 +12,7 @@ func TestCrypt(t *testing.T) {
 	has := Md5(key)[16:]
 
 	fmt.Println("has:", has)
-	content := "{\"code\":1,\"msg\":\"ok\"}"
+	content := "{\"test\":\"test\"}"
 	encrypt, err := AesEncrypt([]byte(content), []byte(has))
 	if err != nil {
 		t.Error(err)

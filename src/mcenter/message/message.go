@@ -1,6 +1,7 @@
 package message
 
 import (
+	"bytes"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
@@ -10,7 +11,6 @@ import (
 	"mcenter/queue"
 	"mcenter/util"
 	"net/http"
-	"strings"
 )
 
 const (
@@ -32,13 +32,21 @@ type HttpResponse struct {
 func (m *Message) Notify(client *http.Client) *Message {
 	m.ResponseCode = 0
 	//加密
+	util.LogOnString("msg body:" + string(m.AmqpDelivery.Body))
+	util.LogOnString("msg token:" + config.AesToken)
+	util.LogOnString("msg MD5 token:" + util.Md5(config.AesToken)[16:])
 	mstring, err := util.AesEncrypt(m.AmqpDelivery.Body, []byte(util.Md5(config.AesToken)[16:]))
 	if err != nil {
 		util.LogOnError(fmt.Sprintf("AesEncrypt error:%s", err))
 		return m
 	}
-	util.LogOnString(m.QueueConfig.Project.NotifyBase + m.QueueConfig.NotifyPath)
-	req, err := http.NewRequest("POST", m.QueueConfig.Project.NotifyBase+m.QueueConfig.NotifyPath, strings.NewReader("msg="+base64.StdEncoding.EncodeToString(mstring)))
+	msg := base64.StdEncoding.EncodeToString(mstring)
+	url := m.QueueConfig.Project.NotifyBase + m.QueueConfig.NotifyPath
+	util.LogOnString("msg callback url:" + url)
+	util.LogOnString("msg encode:" + msg)
+	data := `{"msg":"` + msg + `"}`
+	req, err := http.NewRequest("POST", url, bytes.NewBuffer([]byte(data)))
+	req.Header.Set("Content-Type", "application/json")
 	if err != nil {
 		util.LogOnError(err)
 		return m

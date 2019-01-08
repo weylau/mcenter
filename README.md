@@ -1,7 +1,7 @@
 ## 依赖
 ```
 go get github.com/facebookgo/pidfile
-go get github.com/garyburd/redigo/redis
+go get github.com/streadway/amqp
 go get github.com/satori/go.uuid
 go get gopkg.in/ini.v1
 ```
@@ -15,6 +15,7 @@ go install
 cd ../bin
 cp example.config.ini config.ini
 cp example.queues.json queues.json
+./install.sh #安装
 ./start.sh #启动
 ./restart.sh #重启
 ./stop.sh #停止

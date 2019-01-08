@@ -14,7 +14,7 @@ var count = 0
 const (
 	//queueName = "p.m2.test"
 	exchange = "test_exchange"
-	mqurl    = "queue://test:123456@192.168.1.110/"
+	mqurl    = "queue://fangzz:fangzz@192.168.0.252/fangzz"
 )
 
 func main() {

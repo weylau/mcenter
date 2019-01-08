@@ -31,7 +31,7 @@ type App struct {
 	receiveExit chan struct{}
 	workExit    chan struct{}
 	arkExit     chan struct{}
-	saveExit    chan struct{}
+	resendExit  chan struct{}
 }
 
 func NewApp() *App {
@@ -43,7 +43,7 @@ func NewApp() *App {
 		receiveExit: make(chan struct{}),
 		workExit:    make(chan struct{}),
 		arkExit:     make(chan struct{}),
-		saveExit:    make(chan struct{}),
+		resendExit:  make(chan struct{}),
 	}
 }
 
@@ -279,7 +279,7 @@ func (app *App) Resend() {
 	}
 	go func() {
 		wg.Wait()
-		app.saveExit <- struct{}{}
+		app.resendExit <- struct{}{}
 	}()
 }
 
@@ -288,6 +288,6 @@ func (app *App) Destroy() {
 	<-app.receiveExit
 	<-app.workExit
 	<-app.arkExit
-	<-app.saveExit
+	<-app.resendExit
 	util.LogOnString("==== App destroyed ====")
 }
