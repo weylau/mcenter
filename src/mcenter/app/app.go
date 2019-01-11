@@ -126,9 +126,9 @@ func (app *App) Run() {
 	}()
 	select {
 	case <-timeout.C:
-		panic(fmt.Sprintf("==== gomsg close timeout (signal: %v) ====", sig))
+		panic(fmt.Sprintf("==== mcenter close timeout (signal: %v) ====", sig))
 	case <-wait:
-		logstr := fmt.Sprintf("==== gomsg closing down (signal: %v) ====", sig)
+		logstr := fmt.Sprintf("==== mcenter closing down (signal: %v) ====", sig)
 		util.LogOnString(logstr)
 	}
 }
