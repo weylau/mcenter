@@ -1,7 +1,3 @@
-# mcenter
-mq回调中心，目前回调方式只支持http,后期会支持rpc回调
-
-
 ## 依赖
 ```
 go get github.com/facebookgo/pidfile
