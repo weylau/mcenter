@@ -1,8 +1,3 @@
-# Mcenter
-> 消息回调中心主要是为了解决当队列服务过多时，不同项目或服务都需要各自实现自己的消息消费逻辑，浪费资源；消息回调中心可以配置所有的队列，消费端只需要通过实现http或rpc接口供消息回调中心调用即可，这样可以对消息队列统一管理；
-
-# 配置文件
-```toml
 #mqhost
 amqp_host = "amqp://mq:123456@172.16.57.110:5672/"
 
@@ -62,11 +57,3 @@ binding_exchange = "binding_exchange"
 
 # 绑定key
 routing_key = ["test.test.test"]
-
-
-
-```
-
-
-## Http回调处理demo
-[mcenter-callback-demo](https://github.com/weylau/mcenter-callback-demo "mcenter-callback-demo")
